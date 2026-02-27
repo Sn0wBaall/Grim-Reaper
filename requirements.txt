@@ -1,0 +1,5 @@
+pwn
+termcolor
+requests
+rich
+scapy
