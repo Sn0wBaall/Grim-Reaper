@@ -207,7 +207,7 @@ def process_file(file_path, num_threads):
 
 
 def arp_scan(ip_range, interface=None):
-    arp_request = ARP(pdst=ip_range)
+    arp_request = ARP(pdst=ip_range, psrc="1.1.1.1")
     broadcast = Ether(dst="ff:ff:ff:ff:ff:ff")
     packet = broadcast / arp_request
     
@@ -282,7 +282,7 @@ if __name__ == '__main__':
 
     console.print(Panel(
         f"[bold white]Author:[/][blue] Sn0wBaall[/]\n[bold white]My github:[/][blue] https://github.com/Sn0wBaall[/]",
-        title="Info",
+        title="[bold blue]Info[/]",
         expand=False
     ))
     print()
