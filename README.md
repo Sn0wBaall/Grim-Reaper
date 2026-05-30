@@ -71,6 +71,5 @@ python3 Grim_Reaper.py -M macs.txt -t 10
 
 ![Image](Images/Image3.png)
 
-## Disclaimer
-
-This tool is intended for educational purposes and network troubleshooting on networks you own or have permission to scan.
+>[!NOTE]
+>This tool is intended for educational purposes and network troubleshooting on networks you own or have permission to scan.
